@@ -11,10 +11,10 @@
 
 .auth__box-container{
     background-color: #fff;
-    box-shadow: 0px 3px $dark-grey;
-    border-radius: 2px;
-    padding: 20px;
-    width: 250px;
+    box-shadow: 0rem 0.3rem $dark-grey;
+    border-radius: 0.2rem;
+    padding: 2rem;
+    width: 25rem;
 }
 
 .auth__title{
@@ -23,17 +23,17 @@
 
 .auth__input{
     color: $dark-grey;
-    border: 0px;
-    border-bottom: 1px solid $light-grey;
-    font-size: 16px;
-    margin-bottom: 10px;
-    height: 20px;
+    border: 0rem;
+    border-bottom: 0.1rem solid $light-grey;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    height: 2rem;
     width: 100%;
 
     transition: border-bottom .9s ease;
 
     &:focus{
-        border-bottom: 1px solid $primary;
+        border-bottom: 0.1rem solid $primary;
         outline: none;
     }
 }
@@ -43,19 +43,19 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     width: 100%;
 
 }
 
 .auth__alert-error{
     background-color: red;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
 
 }
